@@ -647,3 +647,57 @@ table td {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+/* Example custom styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.site-header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+}
+
+.site-title {
+  font-size: 2em;
+  text-decoration: none;
+  color: #fff;
+}
+
+.post-list {
+  list-style: none;
+  padding: 0;
+}
+
+.post-list li {
+  margin-bottom: 20px;
+}
+
+.post-meta {
+  color: #777;
+}
+
+.post-link {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.post-link:hover {
+  text-decoration: underline;
+}
+
+.footer-col {
+  margin-bottom: 20px;
+}
+
+.footer-col-1 a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.footer-col-1 a:hover {
+  text-decoration: underline;
+}
