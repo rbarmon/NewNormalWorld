@@ -29,8 +29,8 @@ url: "https://www.newnormal.world" # the base hostname & protocol for your site,
 
 # Author settings
 author:
-  name: "Your Name"                 # The author's name
-  email: "your.email@example.com"   # The author's email (optional)
+  name: "Rian"                 # The author's name
+  email: "rbar0032@student.monash.edu"   # The author's email (optional)
 
 # Build settings
 markdown: kramdown                  # Markdown processor
@@ -44,8 +44,8 @@ paginate: 5                         # Number of posts per page
 
 # Social media links (optional)
 social:
-  twitter: your_twitter_username
-  github: your_github_username
+  twitter: rbarmon
+  github: rbarmon
 
 # Exclude from the build
 exclude:
