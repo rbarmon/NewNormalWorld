@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Mini Apps to Full App | New Normal World</title>
+<meta name="generator" content="Jekyll v4.3.3" />
+<meta property="og:title" content="Mini Apps to Full App" />
+<meta name="author" content="Rian" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="I’ve been thinking about this recently, and here’s my first full take." />
+<meta property="og:description" content="I’ve been thinking about this recently, and here’s my first full take." />
+<link rel="canonical" href="http://localhost:4000/badtakes/Mini-Apps-to-Full-App/" />
+<meta property="og:url" content="http://localhost:4000/badtakes/Mini-Apps-to-Full-App/" />
+<meta property="og:site_name" content="New Normal World" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-08-15T14:35:36+10:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Mini Apps to Full App" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Rian"},"dateModified":"2024-08-15T14:35:36+10:00","datePublished":"2024-08-15T14:35:36+10:00","description":"I’ve been thinking about this recently, and here’s my first full take.","headline":"Mini Apps to Full App","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/badtakes/Mini-Apps-to-Full-App/"},"url":"http://localhost:4000/badtakes/Mini-Apps-to-Full-App/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="New Normal World" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">New Normal World</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Mini Apps to Full App</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2024-08-15T14:35:36+10:00" itemprop="datePublished">Aug 15, 2024
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>I’ve been thinking about this recently, and here’s my first full take.</p>
+
+<p>If you want to build a fully functional SaaS or full-fledged app, the easiest way to do it is by granularizing the development process. This involves breaking down the features and identifying the “mini-apps” that exist within the full app.</p>
+
+<p>For example, if you’re developing a learning platform, you need to carefully consider what your users would want from a comprehensive platform of that kind. While a single feature might work, it often lacks the standalone strength to be monetized effectively, which is crucial for sustaining the platform. Additionally, it’s beneficial to keep the core features that benefit users the most free, while monetizing certain other parts as premium features.</p>
+
+<p>In my case, when developing the learning feature:</p>
+
+<p>Core Features (Free)
+The main feature of the app is the study component, which can be broken down into:</p>
+
+<p>Flashcard Revision
+Code Editor Practice
+Problem-Solving Modules
+These features are free because I want them to serve as the hook for users.</p>
+
+<p>Premium Features
+To create a full app, additional features could include:</p>
+
+<p>Unit Rating Feature and Forum: Enhances user engagement.
+Slides to Flashcards and Content Generation: Helps generate content automatically.
+Tutor Up: The central money maker, where I take a small commission to keep the platform running.
+By combining multiple mini-apps into a single product, you add depth to the service. This approach can potentially lead to a complete platform that is not only functional but also monetizable, setting the stage for future projects that I may want to monetize.</p>
+
+<p>So how should I go about this?</p>
+
+<p>I’m planning to split up the creation of different mini-apps, each with its own repository.</p>
+
+<p>Could this be done better?</p>
+
+<p>I guess we’ll see as we go.</p>
+
+<p>Here’s what chatGPT has to say:</p>
+
+<p>“Your approach of breaking down a larger app into smaller, granular “mini-apps” is a solid strategy for managing complexity and ensuring that each component is robust and well-developed. Here’s how you can refine and execute this approach effectively:</p>
+
+<h3 id="1-define-core-and-peripheral-features">1. <strong>Define Core and Peripheral Features</strong></h3>
+<ul>
+  <li><strong>Core Features (Free):</strong>
+    <ul>
+      <li>Focus on the essential functionality that serves as the hook for your users. For your learning platform, these are:
+        <ul>
+          <li><strong>Flashcard Revision</strong></li>
+          <li><strong>Code Editor Practice</strong></li>
+          <li><strong>Problem Solving Modules</strong></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Peripheral Features (Premium):</strong>
+    <ul>
+      <li>Identify the features that enhance the user experience but can be offered as premium services:
+        <ul>
+          <li><strong>Unit Rating Feature and Forum:</strong> Enhances user engagement, but could be a part of a subscription model.</li>
+          <li><strong>Slides to Flashcards/Content Generation:</strong> Automates content creation for users, which could be a premium feature.</li>
+          <li><strong>Tutor Up:</strong> A marketplace for tutors, where you can take a commission, making it a primary revenue stream.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="2-granularize-development">2. <strong>Granularize Development</strong></h3>
+<ul>
+  <li><strong>Mini-App Structure:</strong>
+    <ul>
+      <li>Each feature or set of related features should be developed as a separate “mini-app.” This could be a separate repository with its own development lifecycle.</li>
+      <li>For example, you could have:
+        <ul>
+          <li><code class="language-plaintext highlighter-rouge">flashcard-revision-app</code></li>
+          <li><code class="language-plaintext highlighter-rouge">code-editor-practice-app</code></li>
+          <li><code class="language-plaintext highlighter-rouge">problem-solving-app</code></li>
+          <li><code class="language-plaintext highlighter-rouge">forum-and-rating-app</code></li>
+          <li><code class="language-plaintext highlighter-rouge">slides-to-flashcards-app</code></li>
+          <li><code class="language-plaintext highlighter-rouge">tutor-up-app</code></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Inter-App Communication:</strong>
+    <ul>
+      <li>Use APIs or microservices architecture to allow these mini-apps to communicate with each other. This will enable you to plug them into the main app seamlessly.</li>
+      <li>Ensure that each mini-app is designed with modularity in mind so that it can function independently but integrate smoothly with others.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="3-repository-and-deployment-management">3. <strong>Repository and Deployment Management</strong></h3>
+<ul>
+  <li><strong>Separate Repos:</strong>
+    <ul>
+      <li>Maintain each mini-app in its own repository. This will allow for independent version control, deployment, and testing.</li>
+      <li>Use a monorepo approach if the apps are closely tied and share dependencies, but ensure clear separation of concerns.</li>
+    </ul>
+  </li>
+  <li><strong>CI/CD Pipelines:</strong>
+    <ul>
+      <li>Implement continuous integration/continuous deployment (CI/CD) pipelines for each mini-app to automate testing and deployment.</li>
+      <li>Use Docker or similar containerization tools to ensure consistency across different environments.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="4-monetization-strategy">4. <strong>Monetization Strategy</strong></h3>
+<ul>
+  <li><strong>Freemium Model:</strong>
+    <ul>
+      <li>Offer the core learning features for free to attract users.</li>
+      <li>Gradually introduce premium features with value-added benefits that entice users to upgrade.</li>
+    </ul>
+  </li>
+  <li><strong>Subscriptions and Commissions:</strong>
+    <ul>
+      <li>For features like the Tutor Up, consider a subscription model or take a commission on transactions to generate revenue.</li>
+      <li>Offer different tiers of service with additional features unlocked at each tier.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="5-integration-and-scaling">5. <strong>Integration and Scaling</strong></h3>
+<ul>
+  <li><strong>Modular Integration:</strong>
+    <ul>
+      <li>Ensure that the main app can easily integrate new mini-apps as they are developed. Use feature toggles to control the rollout of new features to users.</li>
+    </ul>
+  </li>
+  <li><strong>Scaling:</strong>
+    <ul>
+      <li>Design your mini-apps to scale independently. This allows you to allocate resources efficiently and ensure that the platform can handle increased load as user numbers grow.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="6-future-proofing">6. <strong>Future-Proofing</strong></h3>
+<ul>
+  <li><strong>Extendability:</strong>
+    <ul>
+      <li>Build each mini-app with the potential to be extended in the future. This will make it easier to add new features or modify existing ones as user needs evolve.</li>
+    </ul>
+  </li>
+  <li><strong>Cross-App Functionality:</strong>
+    <ul>
+      <li>Consider how these mini-apps can be reused or adapted for other projects. For example, the content generation feature could be repurposed for different learning platforms.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>This approach not only ensures a structured development process but also allows for flexibility in adding new features or pivoting to different monetization strategies as needed.”</p>
+
+
+  </div><a class="u-url" href="/badtakes/Mini-Apps-to-Full-App/" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">New Normal World</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">{&quot;name&quot;=&gt;&quot;Rian&quot;, &quot;email&quot;=&gt;&quot;rbar0032@student.monash.edu&quot;}</li><li><a class="u-email" href="mailto:your-email@example.com">your-email@example.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

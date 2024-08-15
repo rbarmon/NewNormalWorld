@@ -1,17 +1,156 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-08-01T16:25:14+10:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Test Blog</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2024/08/01/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2024-08-01T16:19:36+10:00</published><updated>2024-08-01T16:19:36+10:00</updated><id>http://localhost:4000/jekyll/update/2024/08/01/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2024/08/01/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-08-15T14:48:29+10:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">New Normal World</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><author><name>Rian</name><email>rbar0032@student.monash.edu</email></author><entry><title type="html">Mini Apps to Full App</title><link href="http://localhost:4000/badtakes/Mini-Apps-to-Full-App/" rel="alternate" type="text/html" title="Mini Apps to Full App" /><published>2024-08-15T14:35:36+10:00</published><updated>2024-08-15T14:35:36+10:00</updated><id>http://localhost:4000/badtakes/Mini-Apps-to-Full-App</id><content type="html" xml:base="http://localhost:4000/badtakes/Mini-Apps-to-Full-App/"><![CDATA[<p>I’ve been thinking about this recently, and here’s my first full take.</p>
 
-<p>Jekyll requires blog post files to be named according to the following format:</p>
+<p>If you want to build a fully functional SaaS or full-fledged app, the easiest way to do it is by granularizing the development process. This involves breaking down the features and identifying the “mini-apps” that exist within the full app.</p>
 
-<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
+<p>For example, if you’re developing a learning platform, you need to carefully consider what your users would want from a comprehensive platform of that kind. While a single feature might work, it often lacks the standalone strength to be monetized effectively, which is crucial for sustaining the platform. Additionally, it’s beneficial to keep the core features that benefit users the most free, while monetizing certain other parts as premium features.</p>
 
-<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+<p>In my case, when developing the learning feature:</p>
 
-<p>Jekyll also offers powerful support for code snippets:</p>
+<p>Core Features (Free)
+The main feature of the app is the study component, which can be broken down into:</p>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+<p>Flashcard Revision
+Code Editor Practice
+Problem-Solving Modules
+These features are free because I want them to serve as the hook for users.</p>
 
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry></feed>
+<p>Premium Features
+To create a full app, additional features could include:</p>
+
+<p>Unit Rating Feature and Forum: Enhances user engagement.
+Slides to Flashcards and Content Generation: Helps generate content automatically.
+Tutor Up: The central money maker, where I take a small commission to keep the platform running.
+By combining multiple mini-apps into a single product, you add depth to the service. This approach can potentially lead to a complete platform that is not only functional but also monetizable, setting the stage for future projects that I may want to monetize.</p>
+
+<p>So how should I go about this?</p>
+
+<p>I’m planning to split up the creation of different mini-apps, each with its own repository.</p>
+
+<p>Could this be done better?</p>
+
+<p>I guess we’ll see as we go.</p>
+
+<p>Here’s what chatGPT has to say:</p>
+
+<p>“Your approach of breaking down a larger app into smaller, granular “mini-apps” is a solid strategy for managing complexity and ensuring that each component is robust and well-developed. Here’s how you can refine and execute this approach effectively:</p>
+
+<h3 id="1-define-core-and-peripheral-features">1. <strong>Define Core and Peripheral Features</strong></h3>
+<ul>
+  <li><strong>Core Features (Free):</strong>
+    <ul>
+      <li>Focus on the essential functionality that serves as the hook for your users. For your learning platform, these are:
+        <ul>
+          <li><strong>Flashcard Revision</strong></li>
+          <li><strong>Code Editor Practice</strong></li>
+          <li><strong>Problem Solving Modules</strong></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Peripheral Features (Premium):</strong>
+    <ul>
+      <li>Identify the features that enhance the user experience but can be offered as premium services:
+        <ul>
+          <li><strong>Unit Rating Feature and Forum:</strong> Enhances user engagement, but could be a part of a subscription model.</li>
+          <li><strong>Slides to Flashcards/Content Generation:</strong> Automates content creation for users, which could be a premium feature.</li>
+          <li><strong>Tutor Up:</strong> A marketplace for tutors, where you can take a commission, making it a primary revenue stream.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="2-granularize-development">2. <strong>Granularize Development</strong></h3>
+<ul>
+  <li><strong>Mini-App Structure:</strong>
+    <ul>
+      <li>Each feature or set of related features should be developed as a separate “mini-app.” This could be a separate repository with its own development lifecycle.</li>
+      <li>For example, you could have:
+        <ul>
+          <li><code class="language-plaintext highlighter-rouge">flashcard-revision-app</code></li>
+          <li><code class="language-plaintext highlighter-rouge">code-editor-practice-app</code></li>
+          <li><code class="language-plaintext highlighter-rouge">problem-solving-app</code></li>
+          <li><code class="language-plaintext highlighter-rouge">forum-and-rating-app</code></li>
+          <li><code class="language-plaintext highlighter-rouge">slides-to-flashcards-app</code></li>
+          <li><code class="language-plaintext highlighter-rouge">tutor-up-app</code></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Inter-App Communication:</strong>
+    <ul>
+      <li>Use APIs or microservices architecture to allow these mini-apps to communicate with each other. This will enable you to plug them into the main app seamlessly.</li>
+      <li>Ensure that each mini-app is designed with modularity in mind so that it can function independently but integrate smoothly with others.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="3-repository-and-deployment-management">3. <strong>Repository and Deployment Management</strong></h3>
+<ul>
+  <li><strong>Separate Repos:</strong>
+    <ul>
+      <li>Maintain each mini-app in its own repository. This will allow for independent version control, deployment, and testing.</li>
+      <li>Use a monorepo approach if the apps are closely tied and share dependencies, but ensure clear separation of concerns.</li>
+    </ul>
+  </li>
+  <li><strong>CI/CD Pipelines:</strong>
+    <ul>
+      <li>Implement continuous integration/continuous deployment (CI/CD) pipelines for each mini-app to automate testing and deployment.</li>
+      <li>Use Docker or similar containerization tools to ensure consistency across different environments.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="4-monetization-strategy">4. <strong>Monetization Strategy</strong></h3>
+<ul>
+  <li><strong>Freemium Model:</strong>
+    <ul>
+      <li>Offer the core learning features for free to attract users.</li>
+      <li>Gradually introduce premium features with value-added benefits that entice users to upgrade.</li>
+    </ul>
+  </li>
+  <li><strong>Subscriptions and Commissions:</strong>
+    <ul>
+      <li>For features like the Tutor Up, consider a subscription model or take a commission on transactions to generate revenue.</li>
+      <li>Offer different tiers of service with additional features unlocked at each tier.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="5-integration-and-scaling">5. <strong>Integration and Scaling</strong></h3>
+<ul>
+  <li><strong>Modular Integration:</strong>
+    <ul>
+      <li>Ensure that the main app can easily integrate new mini-apps as they are developed. Use feature toggles to control the rollout of new features to users.</li>
+    </ul>
+  </li>
+  <li><strong>Scaling:</strong>
+    <ul>
+      <li>Design your mini-apps to scale independently. This allows you to allocate resources efficiently and ensure that the platform can handle increased load as user numbers grow.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="6-future-proofing">6. <strong>Future-Proofing</strong></h3>
+<ul>
+  <li><strong>Extendability:</strong>
+    <ul>
+      <li>Build each mini-app with the potential to be extended in the future. This will make it easier to add new features or modify existing ones as user needs evolve.</li>
+    </ul>
+  </li>
+  <li><strong>Cross-App Functionality:</strong>
+    <ul>
+      <li>Consider how these mini-apps can be reused or adapted for other projects. For example, the content generation feature could be repurposed for different learning platforms.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>This approach not only ensures a structured development process but also allows for flexibility in adding new features or pivoting to different monetization strategies as needed.”</p>]]></content><author><name>Rian</name><email>rbar0032@student.monash.edu</email></author><category term="BadTakes" /><summary type="html"><![CDATA[I’ve been thinking about this recently, and here’s my first full take.]]></summary></entry><entry><title type="html">First Actual Post: Blog categories</title><link href="http://localhost:4000/devblog/badtakes/First-Actual-Post/" rel="alternate" type="text/html" title="First Actual Post: Blog categories" /><published>2024-08-14T20:19:36+10:00</published><updated>2024-08-14T20:19:36+10:00</updated><id>http://localhost:4000/devblog/badtakes/First-Actual-Post</id><content type="html" xml:base="http://localhost:4000/devblog/badtakes/First-Actual-Post/"><![CDATA[<p>This is the first post in the DevBlog and BadTakes series.</p>
+
+<p>I’m starting this devblog to maintain coding consistency and to have a platform where I can share my thoughts. After all, if no one sees your work, it can feel like it’s all for nothing.</p>
+
+<p>The DevBlog series will include posts about what I’m currently working on. My goal is to expand these ideas to other platforms if they prove valuable. For now, I’ll focus on building up consistency through this blog.</p>
+
+<p>The BadTakes series will feature my opinions on various dev-related topics. I aim to explore what practices are beneficial, what might be overkill, and the efficiency of different approaches. I think it’s interesting to contrast best practices in large companies with what’s necessary for solo developers.</p>
+
+<p>These are the two main series I’ll be focusing on for now, but I might introduce new categories in the future. We’ll see how it evolves.</p>]]></content><author><name>Rian</name><email>rbar0032@student.monash.edu</email></author><category term="DevBlog" /><category term="BadTakes" /><summary type="html"><![CDATA[This is the first post in the DevBlog and BadTakes series.]]></summary></entry></feed>
