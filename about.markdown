@@ -4,15 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Welcome to NewNormalWorld, a not-so-serious tech and dev blog where I share my journey through the ever-evolving landscape of technology and software development. Whether I’m tinkering with new frameworks, experimenting with code, or just having fun with the latest trends, this space is all about exploring and enjoying the world of tech without taking it too seriously.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Expect a mix of tech insights, coding adventures, and a fair share of playful experimentation. My aim is to make technology approachable and fun, sharing what I learn along the way and maybe even making you smile.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Thanks for stopping by, and feel free to join me on this tech-filled ride!
