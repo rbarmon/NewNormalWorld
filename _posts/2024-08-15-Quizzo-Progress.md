@@ -1,3 +1,6 @@
 
 
-![ChatGPT api to Generate Flashcards](/assets/images/quizzo-2024-08-15/chatgpt-api-to-flashcard.png)
+<!-- <img src="/assets/images/quizzo-2024-08-15/chatgpt-api-to-flashcard.png" alt="ChatGPT API to Generate Flashcards" width="600" height="auto"> -->
+
+
+<img src="/assets/images/quizzo-2024-08-15/chatgpt-api-to-flashcard.png" alt="Description" style="max-width: 75%; height: auto; display: block; margin-left: auto; margin-right: auto;">
